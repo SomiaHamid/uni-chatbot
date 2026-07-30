@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset: remove Vite default dark-mode colors that conflict with Tailwind's light theme */
+:root {
+  font-family: 'Cairo', 'Segoe UI', system-ui, sans-serif;
+  color: #2B2B2B;
+  background-color: #FAF7F2; /* بيج فاتح */
+}
+
+/* تحسين scrollbar */
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #FAF7F2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Smooth scrolling for chat box */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for chat box */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 4px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease;
+}

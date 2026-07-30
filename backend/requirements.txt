@@ -1,0 +1,14 @@
+chromadb==0.6.3
+langchain==0.3.25
+langchain-community==0.3.23
+langchain-huggingface==0.1.2
+sentence-transformers==3.4.1
+transformers==4.51.3
+accelerate==1.6.0
+torch
+pypdf
+fastapi==0.115.12
+uvicorn==0.34.2
+pyngrok==7.2.3
+python-dotenv
+pydantic
