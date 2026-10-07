@@ -8,7 +8,7 @@ regulations and procedures at **Sudan University of Science and Technology
 Graduation project (Bachelor of Information Systems, Honours) — College of
 Computer Science and Information Technology, SUST, June 2026.
 
-> 🔗 **Live demo:** https://university-chatbot-frontend-three.vercel.app
+> 🔗 **Live demo:** https://sust-academic-bot.vercel.app/
 
 ---
 
